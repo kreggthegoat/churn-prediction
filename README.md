@@ -37,15 +37,15 @@ I built multiple classifier models after cleaning and evaluating the data. The c
 
 * The gradient boosting model reported `customer service calls` was the most important factor whether a customer will churn, I think this is due to frustration with the customer service department. I recommend the phone company invest in improving the customer service department. 
 
-![](customer_service.png)
+![](images/customer_service.png)
 
 * Almost half of the customers who opt in for the international plan will cancel their subscription. The correlation could be due to the international services being overpriced I advise reducing the price of the international plan.
 
-![](int_plan.png)
+![](images/int_plan.png)
 
 * When customer pass 250 minutes per day it is much more likely they end their subscription. Customers who use this many minutes may feel the plans available don’t suit them, I’d suggest adding an unlimited minutes phone plan option.
 
-![](minutes.png)
+![](images/minutes.png)
 
 ### Next Steps
 
