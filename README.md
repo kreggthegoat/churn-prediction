@@ -4,7 +4,7 @@ Author: Kregg Jackson
 
 ## Project Overview
 
-For this project I used multiple classifier models to find why customers were churning.
+For this project I used multiple classifier models to find out why customers were churning.
 
 
 ## The Data
@@ -33,17 +33,29 @@ I built multiple classifier models after cleaning and evaluating the data. The c
 
 ## Conclusions
 
-*
-*
-*
+* The most important features are `customer service calls`, `total day_minutes`, and `international plan`.
+
+* The gradient boosting model reported `customer service calls` was the most important factor whether a customer will churn, I think this is due to frustration with the customer service department. I recommend the phone company invest in improving the customer service department. 
+
+![](customer_service.png)
+
+* Almost half of the customers who opt in for the international plan will cancel their subscription. The correlation could be due to the international services being overpriced I advise reducing the price of the international plan.
+
+![](int_plan.png)
+
+* When customer pass 250 minutes per day it is much more likely they end their subscription. Customers who use this many minutes may feel the plans available don’t suit them, I’d suggest adding an unlimited minutes phone plan option.
+
+![](minutes.png)
 
 ### Next Steps
 
-Additional analysis could provide further insights into how to improve likelihood of renovation success.
+* Additional analysis could provide further insights into how to improve likelihood of renovation success.
 
+* I could run cross validation on the churn data to correct the class imbalance differently and see if that is more accurate than class weight and SMOTE.
 
+* Remove more redundant columns the `total day charge` and `total day minutes` columns are too correlated.
 
 ## For More Information
-See the full anaysis in the [Jupyter Notebook](link) or review the [presentation](link)
+See the full anaysis in the [Jupyter Notebook](https://github.com/kreggthegoat/dsc-phase-3-project) or review the [presentation](https://docs.google.com/presentation/d/1LLzdQOGjr92wctMzBrxpsH1rS9NlM1fWf6YMQbX8LGI/edit?usp=sharing).
 
 ## Thank You
