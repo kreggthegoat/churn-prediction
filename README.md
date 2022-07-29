@@ -56,6 +56,6 @@ I built multiple classifier models after cleaning and evaluating the data. The c
 * Remove more redundant columns the `total day charge` and `total day minutes` columns are too correlated.
 
 ## For More Information
-See the full anaysis in the [Jupyter Notebook](https://github.com/kreggthegoat/dsc-phase-3-project) or review the [presentation](https://docs.google.com/presentation/d/1LLzdQOGjr92wctMzBrxpsH1rS9NlM1fWf6YMQbX8LGI/edit?usp=sharing).
+See the full anaysis in the [Jupyter Notebook]([https://github.com/kreggthegoat/dsc-phase-3-project](https://github.com/kreggthegoat/dsc-phase-3-project/blob/main/notebook.ipynb)) or review the [presentation](https://docs.google.com/presentation/d/1LLzdQOGjr92wctMzBrxpsH1rS9NlM1fWf6YMQbX8LGI/edit?usp=sharing).
 
 ## Thank You
