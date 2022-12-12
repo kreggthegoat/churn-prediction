@@ -1,4 +1,4 @@
-# Phase 3 Project : Churn Analysis
+# Customer Churn Analysis
 
 Author: Kregg Jackson
 
